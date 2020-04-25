@@ -68,8 +68,8 @@ var quotes = [
     year: ""
   },
   {
-    quote: "Time is a drug. Too much of it kills you.",
-    source: "Terry Pratchett, Small Gods",
+    quote: "When pushing commits to a pull request, don't force push. Force pushing can corrupt your pull request.",
+    source: "help.github.com, About pull requests",
     citation: "",
     year: ""
   },
