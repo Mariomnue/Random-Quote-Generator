@@ -117,7 +117,8 @@ h1 {
 
 .tags:before {
   content: "Tags: ";
-  font-size: .50rem;
+  font-style: normal;
+  font-size: .80rem;
 }
 
 @media (min-width: 768px) {
