@@ -64,7 +64,7 @@ in randomColorSelector.js
 /*/////////
 auto repeat
 *////////////
-var myVar = setInterval(myTimer, 1000);
+var myVar = setInterval(myTimer, 5000);
 function myTimer() {
   printQuote();
 }
