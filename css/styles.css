@@ -1,4 +1,4 @@
-/** 
+/**
  * Treehouse FSJS Techdegree
  * Random Quote Generator - CSS
  */
@@ -113,6 +113,11 @@ h1 {
 .year:before {
   content: ", ";
   font-style: normal;
+}
+
+.tags:before {
+  content: "";
+  font-size: .50rem;
 }
 
 @media (min-width: 768px) {

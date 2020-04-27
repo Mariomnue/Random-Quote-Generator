@@ -2,10 +2,21 @@
  * `quotes` array
 ***/
 var quotes = [
+  { quote: "",
+      source: "",
+      citation: "",
+      year: ""
+  },
+  { quote: "If you tell the truth, you don't have to remember anything.",
+    source: "Mark Twain",
+    citation: "",
+    year: "",
+    tags: "lies, lying, memory, truth"
+  },
   { quote: "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
     source: "Dr. Seuss",
-    citation: "",
-    year: ""
+    citation: "https://www.goodreads.com/quotes",
+    year: "1950"
   },
   {
     quote: "A friend is someone who knows all about you and still loves you.",
@@ -85,5 +96,4 @@ var quotes = [
     citation: "",
     year: ""
   },
-
 ]
