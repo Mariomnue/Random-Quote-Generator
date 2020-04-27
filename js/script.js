@@ -48,7 +48,7 @@ function printQuote(message){
     }if(quotes[randomQuote].year){
       html += '<span class="year">' +quotes[randomQuote].year+ '</span></p>';
     }if(quotes[randomQuote].tags){
-      html += '<p><span class="tags">Tags: ' +quotes[randomQuote].tags+ '</span></p>';
+      html += '<p><span class="tags">' +quotes[randomQuote].tags+ '</span></p>';
     }
     document.getElementById('quote-box').innerHTML = html;//do not touch
     oldRandomQuote = randomQuote;//store the last one and don't repeat if the same;

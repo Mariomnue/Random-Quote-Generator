@@ -116,7 +116,7 @@ h1 {
 }
 
 .tags:before {
-  content: "";
+  content: "Tags: ";
   font-size: .50rem;
 }
 
