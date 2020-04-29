@@ -21,7 +21,7 @@ let oldRandomQuote; //do not repeat last quote
   function returns a randomNumber only;
 ***/
 function getRandomQuote(){
-  const randomNumber = Math.floor( Math.random() * quotes.length) +1;
+  const randomNumber = Math.floor( Math.random() * quotes.length);
   return randomNumber;
 }
 
