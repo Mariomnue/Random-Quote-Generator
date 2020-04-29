@@ -28,7 +28,7 @@ function getRandomQuote(){
 
 /***
  * `printQuote` function
-  fetches a random number from:getRandomQuote() uses it to build object,
+   fetches a random number from:getRandomQuote() uses it to build object,
    then uses that to build html string from quotes array.
 ***/
 function printQuote(message){
