@@ -34,11 +34,11 @@ function getRandomQuote(){
 function printQuote(message){
     html = '';//clear for new;
     let randomQuote = getRandomQuote();
-    if(randomQuote === 'undefined'){//try to catch Uncaught TypeError
-      printQuote();
-    }
     if(randomQuote === oldRandomQuote){
       randomQuote = getRandomQuote();
+    }
+    if(quotes[randomQuote] === undefined){//try to catch Uncaught TypeError
+      randomQuote = getRandomQuote();///give a new number;
     }
     document.body.style.background = randomColor();
     html += '<p class="quote">' +quotes[randomQuote].quote+ '</p>';
